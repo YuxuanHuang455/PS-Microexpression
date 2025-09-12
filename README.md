@@ -53,24 +53,22 @@ The study integrates the AI Triad (data, algorithms, computing power) and reflec
 ---
 
 ## Research Framing & AI Triad Connections
-
-```mermaid
-flowchart TD
+flowchart
     A[Research Question] --> B1[Emotion Intensity Prediction]
     A --> B2[Minority Class Prediction]
 
-    B1 --> C1[Data: Kaggle micro-expression datasets<br/>Soft labels 0-1]
-    B1 --> D1[Algorithms: CNN + LSTM<br/>Regression loss (MSE/MAE)]
+    B1 --> C1[Data: Kaggle datasets - soft labels 0-1]
+    B1 --> D1[Algorithms: CNN + LSTM; Regression loss (MSE/MAE)]
     B1 --> E1[Compute: Colab GPU for training]
 
     B2 --> C2[Data: Imbalanced micro-expression samples]
-    B2 --> D2[Algorithms: CNN + LSTM + imbalance handling<br/>SMOTE / Focal Loss / Class weights]
+    B2 --> D2[Algorithms: CNN + LSTM with imbalance handling (SMOTE, Focal Loss, Class weights)]
     B2 --> E2[Compute: Colab GPU + scikit-learn baselines]
 
     A --> F[Integration of GenAI Tools]
-    F --> G1[ChatGPT for code prototyping]
-    F --> G2[STORM for literature mapping]
-    F --> G3[Hugging Face pretrained models]
+    F --> G1[ChatGPT: code prototyping]
+    F --> G2[STORM: literature mapping]
+    F --> G3[Hugging Face: pretrained models]
 
 ## FAIR & CARE Principles
 FAIR:
