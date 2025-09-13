@@ -25,8 +25,7 @@ Due to size limitations, the **original dataset files** are stored on Google Dri
 | `Happy/`    | Images of micro-expressions labeled as happiness.                           |
 | `Neutral/`  | Images of micro-expressions labeled as neutral.                             |
 | `Surprised/`| Images of micro-expressions labeled as surprise.                            |
-| `annotations.csv` | File linking image names with emotion labels (if included).           |
-
+| `Contempt/` | Images of micro-expressions labeled as contempt.                            |
 ---
 
 ## Replicability and Reuse
