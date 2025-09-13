@@ -1,7 +1,7 @@
 # PS1-Microexpression
 # Facial Micro-Expression Dataset
 
-This dataset, named **data**, contains material for the Facial Micro-Expression Recognition project. It is divided into two subsets: **train** (for model training) and **test** (for evaluation). The dataset comprises images and annotations of subtle facial expressions corresponding to six emotional states: *Anger, Disgust, Fear, Happy, Neutral,* and *Surprised*. Each category is stored in a dedicated folder, and annotations provide emotion labels for supervised learning tasks. The images are suitable for computer vision pipelines requiring high temporal and spatial resolution. The dataset enables the development and benchmarking of machine learning models for automatic micro-expression recognition.  
+This dataset, named **data**, contains material for the Facial Micro-Expression Recognition project. It is divided into two subsets: **train** (for model training) and **test** (for evaluation). The dataset comprises images and annotations of subtle facial expressions corresponding to at least big six emotional states: *Anger, Disgust, Fear, Happy, Neutral,* and *Surprised*. Each category is stored in a dedicated folder, and annotations provide emotion labels for supervised learning tasks. The images are suitable for computer vision pipelines requiring high temporal and spatial resolution. The dataset enables the development and benchmarking of machine learning models for automatic micro-expression recognition.  
 
 Due to size limitations, the **original dataset files** are stored on Google Drive and can be accessed here:  
 [Google Drive Link](https://drive.google.com/drive/folders/1G6J9fBjIkc0Fs30SHYVkeK1lKWp9fc8Z?usp=sharing)  
