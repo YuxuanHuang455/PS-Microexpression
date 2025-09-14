@@ -7,7 +7,7 @@ Visualized sample images to ensure correct preprocessing.
 Analyzed class distribution, which revealed strong imbalance (e.g., fear and disgust underrepresented compared to happy and neutral).
 This motivated the use of PCA for dimensionality reduction and SMOTE for minority class augmentation in later stages.
 
-Part2: test analysis
+Part2: Test analysis
 1. Feature Extraction
 Local Binary Patterns (LBP): Capture local texture features from facial images.
 CNN Features: Extract high-level deep representations using a convolutional neural network.
