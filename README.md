@@ -49,3 +49,20 @@ Collective benefit: Research aims to support education and healthcare applicatio
 Authority to control: Dataset licensing and participant consent are acknowledged.
 Responsibility: Results emphasize transparency and report limitations, avoiding misuse in surveillance contexts.
 Ethics: Bias and fairness are critically evaluated, particularly regarding minority emotion classes.
+
+## 📘 Notebooks
+1. Prediction_of__Microexpression_basic_EDA_ipynb_.ipynb
+Performs basic exploratory data analysis (EDA) on datasets.
+Includes class distribution plots and imbalance checks.
+Provides baseline evaluation metrics (Accuracy, Macro-F1, Weighted-F1).
+
+2. Explanation_NLP_network_analysis.ipynb
+Uses NLP (word cloud, keyword frequency) and network analysis (semantic co-occurrence networks) to map research themes.
+Identifies central and peripheral terms in micro-expression literature.
+Connects findings to broader research challenges (dataset bias, subtlety of low-frequency emotions).
+
+## Results Summary
+Baseline (ResNet18, no SMOTE): High accuracy but biased toward majority classes.
+PCA + SMOTE: Lower accuracy, but better recall and Macro-F1 for minority classes (fear, disgust).
+AutoML (FLAML): Best overall accuracy but less interpretable.
+Logistic Regression: Competitive performance with highest interpretability.
