@@ -1,4 +1,7 @@
 # Predicting Emotion Intensity and Addressing Class Imbalance in Micro-Expression Recognition
+## Authors and Roles
+Yuxuan Huang: Designed research proposal; implemented data preprocessing, model training (SVM, Logistic Regression, AutoML), and visualization for comparative analysis; authored reflection on causal inference and optimization.
+Prof. Zhang: Provided conceptual guidance, research framing, and feedback on proposal development, model interpretation, and methodological instructions.
 
 ## Abstract
 This project investigates two predictive challenges in micro-expression recognition using open-source Kaggle datasets: (1) extending traditional categorical classification to continuous emotion intensity prediction, and (2) improving recognition of minority emotion classes (e.g., fear, disgust) under imbalanced data conditions.  
@@ -6,8 +9,30 @@ By comparing regression- and classification-based approaches, and by applying im
 The study integrates the AI Triad (data, algorithms, computing power) and reflects critically on the role of GenAI tools (ChatGPT, STORM, Hugging Face) in accelerating reproducible, ethically responsible research.  
 
 ---
-
-## System Configuration
+## Navigation Instructions
+1. Explanation Models
+Location: /explanation/
+Includes code for:
+Topic modeling and clustering (BERTopic, LDA)
+Sentiment and causal inference analysis
+Network and feature importance visualizations
+2. Prediction Models
+Location: /prediction/
+Contains:
+SVM, Logistic Regression, and AutoML pipelines
+Comparative evaluation (Accuracy, Macro-F1)
+Performance plots showing pre- and post-training dynamics
+3. Visualization
+Location: Each subfolder's code
+Includes generated figures for reflection and proposals:
+Causal inference results
+Optimization comparison figure
+4. Datasets and Preprocessing
+Location: /data/
+Contains:
+Original and cleaned datasets (train/test splits)
+Data integration scripts combining 3 public datasets into training and 2 testing sets
+5. System Configuration
 - **Local setup**:  
   - Python 3.10+  
   - Jupyter Notebook  
@@ -83,15 +108,23 @@ I would like to thank Prof. Zhang and Jingting for their thoughtful and detailed
 
 These revisions ensure that the project is methodologically transparent, ethically responsible, and aligned with both FAIR and CARE principles.
 
+Also thanks for AIGC Tools: OpenAI GPT-5 and AutoML (FLAML) for iterative code generation and optimization testing.
+And thanks for Open-source Communities: Hugging Face, Scikit-learn, and Matplotlib contributors for accessible libraries and documentation.
+
 ## Disclaimer
 This repository supports the final research proposal submitted to STATS 201: Machine Learning for Social Science, instructed by Prof. Luyao Zhang at Duke Kunshan University in Autumn 2025
-Statement of Growth – Reflection on intellectual and professional development.
-## Table of Contents – Clickable links to sections and directories.
 
-## Navigation Instructions
-Guide for reviewers to locate:
-Code for explanation, prediction, and visualization.
-Datasets and preprocessing steps.
-o System Configurations
+## Statement of Growth
+
+Through this project, I transitioned from applying statistical models mechanically to understanding their explanatory power in social science contexts.
+I learned:
+To interpret model transparency and causal inference, rather than focusing solely on accuracy.
+The balance between explainability and performance across algorithms (e.g., SVM vs. LogReg vs. AutoML).
+To connect data-driven results with broader social interpretation, which is a shift from coding to conceptual reasoning.
+This process strengthened both my technical confidence and my academic independence.
+
+## Table of Contents
+
 
 ## Embedded Media
+Poster link: https://www.canva.com/design/DAGz2tkl0FA/4uT1plaiBaCdTY36e1qH6Q/edit?utm_content=DAGz2tkl0FA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
