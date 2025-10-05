@@ -82,3 +82,16 @@ Acknowledgments
 I would like to thank Prof. Zhang and Jingting for their thoughtful and detailed reviews, which significantly improved the rigor, clarity, and ethical grounding of this work. Their feedback shaped both the updated manuscript and this repository’s documentation.
 
 These revisions ensure that the project is methodologically transparent, ethically responsible, and aligned with both FAIR and CARE principles.
+
+## Disclaimer
+This repository supports the final research proposal submitted to STATS 201: Machine Learning for Social Science, instructed by Prof. Luyao Zhang at Duke Kunshan University in Autumn 2025
+Statement of Growth – Reflection on intellectual and professional development.
+## Table of Contents – Clickable links to sections and directories.
+
+## Navigation Instructions
+Guide for reviewers to locate:
+Code for explanation, prediction, and visualization.
+Datasets and preprocessing steps.
+o System Configurations
+
+## Embedded Media
