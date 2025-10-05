@@ -124,7 +124,13 @@ To connect data-driven results with broader social interpretation, which is a sh
 This process strengthened both my technical confidence and my academic independence.
 
 ## Table of Contents
-
+Dataset: https://drive.google.com/drive/folders/1G6J9fBjIkc0Fs30SHYVkeK1lKWp9fc8Z
+EDA-data:https://github.com/YuxuanHuang455/PS-Microexpression/blob/main/code/Microexpression_basic_EDA.ipynb
+Test-data: https://github.com/YuxuanHuang455/PS-Microexpression/blob/main/code/Test_LBP%2BCNN%2BSVM_Classification_copy_of_%E2%80%9CMicroexpression_basic_EDA_ipynb%E2%80%9D.ipynb
+Prediction: https://github.com/YuxuanHuang455/PS-Microexpression/tree/main/Prediction
+Explanation: https://github.com/YuxuanHuang455/PS-Microexpression/tree/main/Explanation
+Causal Inference: https://github.com/YuxuanHuang455/PS-Microexpression/tree/main/Causal-Inference
+Vidro: https://github.com/YuxuanHuang455/PS-Microexpression/tree/main/Video
 
 ## Embedded Media
 Poster link: https://www.canva.com/design/DAGz2tkl0FA/4uT1plaiBaCdTY36e1qH6Q/edit?utm_content=DAGz2tkl0FA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
