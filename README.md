@@ -134,3 +134,10 @@ Vidro: https://github.com/YuxuanHuang455/PS-Microexpression/tree/main/Video
 
 ## Embedded Media
 Poster link: https://www.canva.com/design/DAGz2tkl0FA/4uT1plaiBaCdTY36e1qH6Q/edit?utm_content=DAGz2tkl0FA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
+
+Video: 
+https://github.com/user-attachments/assets/7c0b1689-0816-4182-8f81-37bade976eda
+https://github.com/user-attachments/assets/9afe8b78-16aa-415a-bcd1-e628a74a89b8
+
+
+
